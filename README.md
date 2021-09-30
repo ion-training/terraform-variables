@@ -1,4 +1,4 @@
-# terraform-variable
+# terraform-variables
 
 Terraform can request or publish information using:
    - Input Variables: parameters you can pass
