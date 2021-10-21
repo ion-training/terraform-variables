@@ -45,7 +45,7 @@ _later sources taking precedence over earlier ones_
    - Any *.auto.tfvars or *.auto.tfvars.json files, processed in lexical order of their filenames.
    - Any -var and -var-file options on the command line, in the order they are provided.
 
-#Sample code
+# Sample code
 
 Create a variable block.
 The number_apples is a place holder for the value.
@@ -70,12 +70,12 @@ Above sample code was placed in main.tf.
 
 # How to use the code sample code above
 
-Clone the repository:
+Clone the repository.
 ```
 git clone git@github.com:ion-training/terraform-variables.git
 ```
 
-Change the directory into the newly downloaded repo
+Change the directory into the newly downloaded repo.
 ```
 cd terraform-variables
 ```
@@ -84,13 +84,13 @@ Initialize the directory with terraform init.
 ```
 terraform init
 ```
-See what plan/steps terraform will use to create the resources
+See what plan/steps terraform will use to create the resources.
 _in this case the variable that references value 5_
 ```
 terraform plan
 ```
 
-Apply the plan (implement the changes):
+Apply the plan (implement the changes).
 ```
 terraform apply
 ```
