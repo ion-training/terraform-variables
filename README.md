@@ -68,7 +68,7 @@ output "amount_of_apples" {
 
 Above sample code was placed in main.tf.
 
-# How to use the code sample code above
+# How to use the sample code above
 
 Clone the repository.
 ```
