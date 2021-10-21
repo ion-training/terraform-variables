@@ -84,7 +84,7 @@ Initialize the directory with terraform init.
 ```
 terraform init
 ```
-See what plan/steps terraform will use to create the resources.
+See what plan/steps terraform will use to create the resources. \
 _in this case the variable that references value 5_
 ```
 terraform plan
